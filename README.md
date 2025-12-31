@@ -188,29 +188,7 @@ Test the application with various websites:
 - Not all security vulnerabilities can be detected remotely
 - Does not perform intrusive testing or exploitation
 
-## Future Enhancements
 
-Potential improvements:
-- Integration with additional security APIs (VirusTotal, SSL Labs)
-- Historical tracking of security assessments
-- Export reports to PDF
-- Email notifications for certificate expiration
-- More detailed vulnerability scanning
-
-## Course Project Requirements Compliance
-
-✅ Single webpage with search box and "Test" button  
-✅ Integration with 2-3 cybersecurity tools/services  
-✅ Security report with SSL/TLS, headers, and DNS checks  
-✅ Risk assessment (Low/Medium/High)  
-✅ Cybersecurity Terms feature with 25-40 terms  
-✅ Disclaimer and ethical guidelines  
-✅ Server-side API key protection  
-✅ Clean, user-friendly interface  
-
-## License
-
-This project is developed for educational purposes as part of the Information Security Management course.
 
 ## Authors
 

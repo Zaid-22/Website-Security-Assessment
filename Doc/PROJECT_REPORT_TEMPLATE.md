@@ -4,7 +4,7 @@
 **Course:** Information Security Management  
 **Project Title:** Website Security Assessment & Guidance Web Tool  
 **Semester:** 1st / 2025–2026  
-**Total Marks:** 20 Points
+**Total Marks:** 10 Points
 
 ---
 
@@ -15,8 +15,8 @@
 **Student Names & IDs:**
 - [Student 1 Name] - [ID]
 - [Student 2 Name] - [ID]
-- [Student 3 Name] - [ID] (if applicable)
-- [Student 4 Name] - [ID] (if applicable)
+- [Student 3 Name] - [ID] 
+- [Student 4 Name] - [ID] 
 
 **Course:** Information Security Management  
 **Instructor:** [Instructor Name]  

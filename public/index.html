@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Security Assessment & Guidance Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Website Security Assessment</h1>
+      </header>
+
+      <nav class="tabs">
+        <button class="tab-button active" onclick="showTab('assessment')">
+          Website Test
+        </button>
+        <button class="tab-button" onclick="showTab('terms')">
+          Cybersecurity Terms
+        </button>
+      </nav>
+
+      <!-- Assessment Tab -->
+      <div id="assessment-tab" class="tab-content active">
+        <div class="input-section">
+          <div class="input-group">
+            <input
+              type="text"
+              id="website-input"
+              placeholder="Enter website/domain (e.g., example.com)"
+              onkeypress="handleEnterKey(event)"
+            />
+            <button id="test-button" onclick="runAssessment()">Test</button>
+          </div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+          <div class="spinner"></div>
+          <p>Running security assessment...</p>
+        </div>
+
+        <div id="report-section" class="report-section hidden">
+          <h2>Security Report</h2>
+          <div id="report-content"></div>
+        </div>
+      </div>
+
+      <!-- Cybersecurity Terms Tab -->
+      <div id="terms-tab" class="tab-content hidden">
+        <div class="terms-header">
+          <h2>Cybersecurity Terms & Definitions</h2>
+          <p>
+            Scientific and technical terms used in information security
+            management
+          </p>
+        </div>
+        <div id="terms-content" class="terms-grid">
+          <!-- Terms will be loaded here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
